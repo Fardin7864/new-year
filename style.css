@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 header {
@@ -46,4 +46,49 @@ header {
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
+}
+
+
+/* faillior section */
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.faillior-list {
+    width: 416px;
+
+}
+
+.faillior-title {
+    width: 288px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.faillior-description {
+    margin: 24px 0 16px 0;
+    width: 416px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+li {
+    list-style: none;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    display: flex;
+
+    align-items: center;
 }
