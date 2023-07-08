@@ -55,6 +55,7 @@ header {
     justify-content: space-evenly;
     align-items: center;
 }
+
 .faillior-list {
     width: 416px;
 
@@ -91,4 +92,49 @@ li {
     display: flex;
 
     align-items: center;
+}
+
+
+/* plane */
+.plan-box-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.plan-container {
+    text-align: center;
+}
+
+.plan-box-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title-plan {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 50px 0;
+}
+
+.plan-logo {
+    width: 92.958px;
+    height: 92.958px;
+}
+
+.plan-info-title {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.planinfo {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
 }
